@@ -14,7 +14,7 @@ services:
 
   check:
     build: .
-    container_name: analytics-template-check
+    container_name: check
     depends_on:
       - db
     environment:
@@ -27,9 +27,9 @@ services:
       - .:/app
     command: python src/bin/check.py
 
-  main:
+  app:
     build: .
-    container_name: analytics-template-main
+    container_name: app
     depends_on:
       - db
     environment:
