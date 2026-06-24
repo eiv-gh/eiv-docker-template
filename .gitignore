@@ -1,23 +1,7 @@
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-build/
-dist/
-*.egg-info/
 .venv/
-venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.env.local
 .env
-
-# Notebook
-.ipynb_checkpoints/
-
-# Data
-/data/*
-!/data/input/personal_msg.csv
-
-
-# VS Code
-.vscode/
+*.pyc
