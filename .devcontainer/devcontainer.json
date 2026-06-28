@@ -12,7 +12,8 @@
       "extensions": [
         "ms-python.python",
         "ms-python.vscode-pylance",
-        "charliermarsh.ruff"
+        "charliermarsh.ruff",
+        "openai.chatgpt"
       ],
       "settings": {
         "python.defaultInterpreterPath": "/workspace/.venv/bin/python",
